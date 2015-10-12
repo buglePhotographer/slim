@@ -1,0 +1,10 @@
+<h2>{{cat.formLabel}}</h2>
+<div>
+	  <div class="form-group">
+		<label>Descripcion</label>
+		<input type="text" class="form-control" placeholder="Descripcion de la categoría" ng-model="cat.cat_desc">
+	  </div>
+	  <button class="btn btn-default" ng-click="cat.createCategoria()" ng-hide="cat.editOn">Guardar</button>
+	<button class="btn btn-default" ng-click="cat.updateCategoria()" ng-show="cat.editOn">Editar</button>
+	<button class="btn btn-default" ng-click="cat.cleanCat()" ng-show="cat.editOn">Cancelar</button>
+</div>

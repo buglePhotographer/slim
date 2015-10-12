@@ -1,0 +1,21 @@
+{
+	"categorias" : [
+			{
+				"categoria_id" : 1,
+				"categoria_desc" : "Una categoría"
+			},
+			{
+				"categoria_id" : 2,
+				"categoria_desc" : "Otra categoría"
+			},
+			{
+				"categoria_id" : 3,
+				"categoria_desc" : "Otra categoría más"
+			},
+			{
+				"categoria_id" : 4,
+				"categoria_desc" : "Alguna categoría"
+			}		
+	],
+	"error" : false
+}
